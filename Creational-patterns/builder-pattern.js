@@ -1,3 +1,6 @@
+// Builder Pattern is a creational pattern that lets you construct complex objects step by step.
+
+
 // Product
 class House {
     constructor() {
@@ -102,3 +105,18 @@ const classicHouseBuilder = new ClassicHouseBuilder();
 houseDirector.builder = classicHouseBuilder;
 const classicHouse = houseDirector.constructHouse();
 classicHouse.describe(); // Output: House with Stone foundation, Brick walls, Traditional wooden windows, and Gabled roof with shingles.
+
+
+
+// Use Cases:
+
+// Car Manufacturing (Vehicle Configuration)
+// Document Creation (Word, PDF, HTML Reports)
+// Complex Form Creation (Dynamic Forms)
+// Meal Preparation (Restaurant Menu)
+// Game Character Creation
+// Web Page Builder (CMS or Page Editors)
+// GUI Component Construction (UI Frameworks)
+// Notification System (Email, SMS, Push Notifications)
+// Video Streaming Setup (Video Player Configuration)
+// Order Processing System (E-commerce Checkout Flow)
